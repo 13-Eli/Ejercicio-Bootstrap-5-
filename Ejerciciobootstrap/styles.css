@@ -1,12 +1,13 @@
-/* Margen de 20px para separar los elementos */
-.col-sm {
+/* Separación entre los elementos */
+.container > .row > .col-sm {
     margin-bottom: 20px;
 }
 
-/* Media query para centrar textos en listas y footer en vista móvil */
+/* Media query para centrar textos en vista móvil */
 @media (max-width: 576px) {
     .navbar-nav a,
     footer {
         text-align: center;
     }
 }
+
