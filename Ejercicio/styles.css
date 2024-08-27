@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+    .footer-title, p, ul {
+        text-align: center;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer, .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+h1, .carousel, ul, footer {
+    margin: 20px 0px 20px 0px;
+}
